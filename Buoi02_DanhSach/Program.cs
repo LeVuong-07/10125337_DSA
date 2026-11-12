@@ -31,7 +31,7 @@ Bai5();
 static void Bai1()
 {
     int dem = 0;
-    int n = 3; // Mặc định 3 đĩa để demo nhanh
+    int n = 3; 
     Console.WriteLine($"Chạy thử Tháp Hà Nội với {n} đĩa:");
     HaNoi(n, 'A', 'B', 'C', ref dem);
     Console.WriteLine("Tổng số lần chuyển: " + dem);
