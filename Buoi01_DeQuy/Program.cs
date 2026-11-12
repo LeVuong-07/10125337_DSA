@@ -50,7 +50,7 @@ static void Bai1()
 
 static void Bai2()
 {
-    for (int i = 1; i <= 30; i++) // In minh họa 30 số đầu
+    for (int i = 1; i <= 30; i++) 
     {
         if (i % 3 == 0 && i % 5 == 0)
         {
@@ -90,7 +90,7 @@ static void Bai3()
 
 static void Bai4()
 {
-    int[] a = new int[20]; // Minh họa 20 phần tử để dễ nhìn kết quả
+    int[] a = new int[20]; 
     Random rd = new Random(42);
     for (int i = 0; i < a.Length; i++)
     {
